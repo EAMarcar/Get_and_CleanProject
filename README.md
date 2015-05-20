@@ -18,7 +18,7 @@ There are 3 files asscoiated with this class project:
 - run_analysis.R
 - CodeBook.md
 
-run_analysis.R is a R script file that reads in the data from the following files in the Human Activity REcognition
+run_analysis.R is a R script file that reads in the data from the following files in the Human Activity Recognition
 Using Smartphones Dataset:
 
 - 'features.txt': List of all features.
@@ -37,7 +37,7 @@ Since this data is built into the script, this file is not needed.
 
 run_analysis.R combines subject and activity data with the frequency and time domain variables, but extracts only 66 of the original 561 vaiables. 
 Only variables that measure mean or standard deviation are retained.
-The tidy dataset containin this data is called:
+The tidy dataset containing this data is called:
 
 HAR_tidy
 
