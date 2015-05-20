@@ -46,7 +46,7 @@ This included a set of variables labled "meanFreq" which are "the weighted avera
 The script is written in a such so that these can be easily included if that is required.
 
 The HAR_tidy dataset is then summarized across subject and activity to produce a second datset. 
-The second datset is ave_tidy.  It contains the same 68 variables, but the valuse of the measurements are the means of the HAR_tidy variable values summarized across sbject and activity.
+The second datset is ave_tidy.  It contains the same 68 variables, but the values of the measurements are the means of the HAR_tidy variable values summarized across sbject and activity.
 
 ## Datasets ##
 
