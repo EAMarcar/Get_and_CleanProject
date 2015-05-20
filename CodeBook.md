@@ -39,7 +39,7 @@ The original data contains for each record:
 - An identifier of the subject who carried out the experiment 
 
 This script reduces the 561 festures variables to only those containing mean or standard deviation measurements.
-This subset contains 66 features variables.  
+This subset contains 66 features variables. These variables have been assigned the names in the "features.txt" file. 
 
 The resulting dataset is HAR_tidy with 68 variables (subject, activity and 66 measures of mean or standard deviation).  The slection was made by choosing variables with "mean" or "std" in the name. 
 This included a set of variables labled "meanFreq" which are "the weighted average of the frequency components to obtain a mean frequency."  Since this was not strictly a mean or std,these were dropped.
